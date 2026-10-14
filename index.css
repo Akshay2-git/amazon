@@ -1,0 +1,72 @@
+.main{
+    height: 400px;
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    border-radius: 21px;
+    background-color: rgb(19, 19, 209);
+    height: 100px;
+    width: 200px;
+transition: height, 0.4s,ease-out;
+transition: opacity, 0.5s ease-in;
+}
+.box2{
+    background-color: black;
+    height: 100px;
+    width: 200px;
+
+    transition: height 0.4s ease-out, background-color 0.4s ease-out;
+
+}
+
+.box3{
+    
+    background-color: purple;
+    height: 100px;
+    width: 200px;
+    transition: transform 0.3s ease-out;
+}
+.box1:hover{
+height: 180px;
+}
+.word{
+
+    
+    color: rgb(250, 246, 246);
+    opacity: 0;
+    padding-top: 80px;
+    padding-left: 40px;
+    align-items: center;
+    transition: opacity, 0.6s ease-out;
+}
+.word:hover{
+    opacity: 1;
+}
+.box2:hover{
+    background-color: red;
+
+    height: 400px;
+
+}
+.box3:hover{
+    transform: scale(2);
+
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#circle{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    transition: border-radius, 0.5s linear;
+
+}
+#circle:hover{
+    border-radius: 50%;
+
+}
